@@ -102,7 +102,28 @@
 
 
 
-
+/* Hide specific controls */
+video::-webkit-media-controls-play-button,
+video::-webkit-media-controls-pause-button,
+video::-webkit-media-controls-fullscreen-button,
+video::-webkit-media-controls-volume-slider,
+video::-webkit-media-controls-overflow-menu-button {
+    display: none !important;
+}
+video::-moz-media-controls-play-button,
+video::-moz-media-controls-pause-button,
+video::-moz-media-controls-fullscreen-button,
+video::-moz-media-controls-volume-slider,
+video::-moz-media-controls-overflow-menu-button {
+    display: none !important;
+}
+video::-ms-media-controls-play-button,
+video::-ms-media-controls-pause-button,
+video::-ms-media-controls-fullscreen-button,
+video::-ms-media-controls-volume-slider,
+video::-ms-media-controls-overflow-menu-button {
+    display: none !important;
+}
 
 
 
@@ -190,8 +211,8 @@
 
 .setting{
     position: absolute;
-    top: 90.4%;
-    left: 92%;
+    top: 85.5%;
+    left: 91.7%;
     width: 3.5vh;
     height: 3.5vh;
     cursor: pointer; 
